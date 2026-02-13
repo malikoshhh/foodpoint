@@ -145,7 +145,7 @@ function App() {
     <div className="app">
       {/* Header */}
       <header className="header">
-        <div className="header-stripe">#сОЧНО, БЫСТРО, ВКУСНО</div>
+        <div className="header-stripe">#СОЧНО, БЫСТРО, ВКУСНО</div>
         
         <div className="top-bar">
           <div className="logo-section">
@@ -237,7 +237,7 @@ function App() {
           <span>★</span>
         </div>
 
-        <div className="footer-slogan">#сОЧНО, БЫСТРО, ВКУСНО</div>
+        <div className="footer-slogan">#СОЧНО, БЫСТРО, ВКУСНО</div>
       </footer>
     </div>
   );

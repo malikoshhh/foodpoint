@@ -322,7 +322,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 10px;
+  gap: 15px;
 }
 
 .logo-image {
@@ -331,6 +331,18 @@ body {
   border-radius: 50%;
   object-fit: cover;
   box-shadow: 0 10px 40px rgba(218, 48, 48, 0.5);
+}
+
+.logo-index-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-index {
+  width: 180px;
+  height: auto;
+  object-fit: contain;
 }
 
 .bull-circle {
@@ -487,6 +499,10 @@ body {
   .logo-image {
     width: 150px;
     height: 150px;
+  }
+
+  .logo-index {
+    width: 120px;
   }
 
   .food-point-logo {

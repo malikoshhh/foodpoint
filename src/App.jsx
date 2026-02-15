@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
-import logoImage from '../pints/foodpointLogo.jpg';
+import logoMain from '../pints/logoMain.jpg';
+import logoIndex from '../pints/logoIndex.jpg';
 
 // Данные меню из PDF
 const menuData = {
@@ -149,7 +150,10 @@ function App() {
         <div className="delivery-banner">
           <div className="logo-halal-group">
             <div className="bull-logo">
-              <img src={logoImage} alt="Food Point Logo" className="logo-image" />
+              <img src={logoMain} alt="Food Point Logo" className="logo-image" />
+            </div>
+            <div className="logo-index-container">
+              <img src={logoIndex} alt="Food Point Index" className="logo-index" />
             </div>
             <div className="halal-logo">
               <div className="arabic">حلال</div>

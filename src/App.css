@@ -31,12 +31,38 @@ body {
 
 .top-bar {
   background: #000;
-  padding: 30px 60px;
+  padding: 20px 60px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   border-bottom: 4px solid #da3030;
   position: relative;
+}
+
+.center-info {
+  text-align: center;
+}
+
+.center-phone {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 48px;
+  color: #da3030;
+  letter-spacing: 2px;
+  margin-bottom: 5px;
+}
+
+.center-address {
+  font-size: 24px;
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.center-hours {
+  font-size: 20px;
+  color: #ccc;
+  font-weight: 400;
+  margin-top: 5px;
 }
 
 .logo-section {
@@ -49,7 +75,6 @@ body {
   font-family: 'Bebas Neue', sans-serif;
   text-align: center;
   line-height: 1;
-  margin-left: 20px;
 }
 
 .arabic {
@@ -250,20 +275,17 @@ body {
 
 .delivery-banner {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: center;
-  max-width: 1400px;
-  margin: 0 auto;
+  width: 100%;
   flex-wrap: wrap;
   gap: 20px;
   padding: 20px 40px;
 }
 
 .delivery-text {
-  flex: 1;
-  min-width: 300px;
+  flex: 0 0 auto;
   text-align: right;
-  margin-left: auto;
 }
 
 .delivery-title {
@@ -296,9 +318,16 @@ body {
   position: relative;
 }
 
+.logo-halal-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
 .logo-image {
-  width: 180px;
-  height: 180px;
+  width: 220px;
+  height: 220px;
   border-radius: 50%;
   object-fit: cover;
   box-shadow: 0 10px 40px rgba(218, 48, 48, 0.5);
@@ -424,10 +453,40 @@ body {
   .delivery-banner {
     flex-direction: column;
     text-align: center;
+    align-items: center;
+  }
+
+  .delivery-text {
+    text-align: center;
   }
 
   .delivery-title {
     font-size: 60px;
+  }
+
+  .center-phone {
+    font-size: 36px;
+  }
+
+  .center-address {
+    font-size: 18px;
+  }
+
+  .center-hours {
+    font-size: 16px;
+  }
+
+  .halal-logo .arabic {
+    font-size: 30px;
+  }
+
+  .halal-logo .halal-text {
+    font-size: 18px;
+  }
+
+  .logo-image {
+    width: 150px;
+    height: 150px;
   }
 
   .food-point-logo {

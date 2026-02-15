@@ -147,37 +147,28 @@ function App() {
       {/* Header */}
       <header className="header">
         <div className="delivery-banner">
-          <div className="bull-logo">
-            <img src={logoImage} alt="Food Point Logo" className="logo-image" />
-          </div>
-
-          <div className="halal-logo">
-            <div className="arabic">حلال</div>
-            <div className="halal-text">HALAL</div>
+          <div className="logo-halal-group">
+            <div className="bull-logo">
+              <img src={logoImage} alt="Food Point Logo" className="logo-image" />
+            </div>
+            <div className="halal-logo">
+              <div className="arabic">حلال</div>
+              <div className="halal-text">HALAL</div>
+            </div>
           </div>
 
           <div className="delivery-text">
-            <div className="delivery-title">ДОСТАВКА ЕДЫ</div>
+            <div className="delivery-title">ЛУЧШИЙ ФАСТФУД</div>
             <div className="delivery-subtitle">БЕСПЛАТНАЯ ПО АРХЫЗУ</div>
             <div className="delivery-minimum">ОТ 700₽</div>
           </div>
         </div>
         
         <div className="top-bar">
-          <div className="logo-section">
-            <div className="phone-horizontal">
-              8(903) - 443 - 13 - 52
-            </div>
-          </div>
-
-          <div className="slogan-horizontal">
-            УЛ.ХУБИЕВА Д
-          </div>
-
-          <div className="contact-info">
-            <div className="phone">8(903)-443-13-52</div>
-            <div className="address">УЛ.ХУБИЕВА 1Д</div>
-            <div className="hours">11:00 - 22:00</div>
+          <div className="center-info">
+            <div className="center-phone">8(903)-443-13-52</div>
+            <div className="center-address">УЛ.ХУБИЕВА 1Д</div>
+            <div className="center-hours">11:00 - 22:00</div>
           </div>
         </div>
       </header>

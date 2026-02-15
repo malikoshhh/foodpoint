@@ -145,20 +145,37 @@ function App() {
     <div className="app">
       {/* Header */}
       <header className="header">
-        <div className="header-stripe">#СОЧНО, БЫСТРО, ВКУСНО</div>
+        <div className="delivery-banner">
+          <div className="bull-logo">
+            <div className="bull-circle">
+              <div className="bull-silhouette">🐂</div>
+            </div>
+          </div>
+
+          <div className="food-point-logo">
+            FOOD<span className="red-ampersand">&</span>POINT
+          </div>
+
+          <div className="halal-logo">
+            <div className="arabic">حلال</div>
+            <div className="halal-text">HALAL</div>
+          </div>
+
+          <div className="delivery-text">
+            <div className="delivery-title">ДОСТАВКА ЕДЫ</div>
+            <div className="delivery-subtitle">БЕСПЛАТНАЯ ПО АРХЫЗУ</div>
+            <div className="delivery-minimum">ОТ 700₽</div>
+          </div>
+        </div>
         
         <div className="top-bar">
           <div className="logo-section">
-            <div className="halal-logo">
-              <div className="arabic">حلال</div>
-              <div className="halal-text">HALAL</div>
-            </div>
-            <div className="phone-vertical">
+            <div className="phone-horizontal">
               8(903) - 443 - 13 - 52
             </div>
           </div>
 
-          <div className="slogan">
+          <div className="slogan-horizontal">
             УЛ.ХУБИЕВА Д
           </div>
 
@@ -169,6 +186,16 @@ function App() {
           </div>
         </div>
       </header>
+
+      {/* Center Section with Stars and Slogan */}
+      <div className="center-section">
+        <div className="stars">
+          <span>★</span>
+          <span>★</span>
+          <span>★</span>
+        </div>
+        <div className="footer-slogan">#СОЧНО, БЫСТРО, ВКУСНО</div>
+      </div>
 
       {/* Navigation */}
       <nav className="nav">
@@ -213,31 +240,6 @@ function App() {
 
       {/* Footer */}
       <footer className="footer">
-        <div className="delivery-banner">
-          <div className="delivery-text">
-            <div className="delivery-title">ДОСТАВКА ЕДЫ</div>
-            <div className="delivery-subtitle">БЕСПЛАТНАЯ ПО АРХЫЗУ</div>
-            <div className="delivery-minimum">ОТ 700₽</div>
-          </div>
-          
-          <div className="bull-logo">
-            <div className="bull-circle">
-              <div className="bull-silhouette">🐂</div>
-            </div>
-          </div>
-
-          <div className="food-point-logo">
-            FOOD<span className="red-ampersand">&</span>POINT
-          </div>
-        </div>
-
-        <div className="stars">
-          <span>★</span>
-          <span>★</span>
-          <span>★</span>
-        </div>
-
-        <div className="footer-slogan">#СОЧНО, БЫСТРО, ВКУСНО</div>
       </footer>
     </div>
   );

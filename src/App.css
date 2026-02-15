@@ -49,20 +49,21 @@ body {
   font-family: 'Bebas Neue', sans-serif;
   text-align: center;
   line-height: 1;
+  margin-left: 20px;
 }
 
 .arabic {
-  font-size: 60px;
+  font-size: 40px;
   color: #FFD700;
   font-weight: bold;
-  letter-spacing: 5px;
+  letter-spacing: 3px;
 }
 
 .halal-text {
-  font-size: 36px;
+  font-size: 24px;
   color: #FFD700;
-  letter-spacing: 5px;
-  margin-top: -5px;
+  letter-spacing: 3px;
+  margin-top: -3px;
 }
 
 .phone-vertical {
@@ -77,6 +78,14 @@ body {
   font-weight: 400;
 }
 
+.phone-horizontal {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 42px;
+  color: #FF0000;
+  letter-spacing: 2px;
+  font-weight: 400;
+}
+
 .slogan {
   font-family: 'Bebas Neue', sans-serif;
   font-size: 100px;
@@ -86,6 +95,14 @@ body {
   text-orientation: mixed;
   transform: rotate(180deg);
   line-height: 0.9;
+  font-weight: 400;
+}
+
+.slogan-horizontal {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 48px;
+  color: #fff;
+  letter-spacing: 2px;
   font-weight: 400;
 }
 
@@ -233,17 +250,20 @@ body {
 
 .delivery-banner {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
   max-width: 1400px;
   margin: 0 auto;
   flex-wrap: wrap;
-  gap: 40px;
+  gap: 20px;
+  padding: 20px 40px;
 }
 
 .delivery-text {
   flex: 1;
   min-width: 300px;
+  text-align: right;
+  margin-left: auto;
 }
 
 .delivery-title {
@@ -277,8 +297,8 @@ body {
 }
 
 .bull-circle {
-  width: 200px;
-  height: 200px;
+  width: 120px;
+  height: 120px;
   background: linear-gradient(135deg, #FF0000 0%, #CC0000 100%);
   border-radius: 50%;
   display: flex;
@@ -289,7 +309,7 @@ body {
 }
 
 .bull-silhouette {
-  font-size: 100px;
+  font-size: 60px;
   filter: brightness(0) invert(1);
 }
 
@@ -298,8 +318,9 @@ body {
   font-size: 60px;
   color: #fff;
   letter-spacing: 3px;
-  text-align: right;
+  text-align: left;
   line-height: 1;
+  margin-left: 10px;
 }
 
 .red-ampersand {
@@ -308,11 +329,17 @@ body {
   margin: 0 5px;
 }
 
+.center-section {
+  text-align: center;
+  padding: 20px 0;
+  background: #000;
+}
+
 .stars {
   display: flex;
   justify-content: center;
   gap: 40px;
-  margin: 40px 0 20px;
+  margin: 10px 0;
   font-size: 50px;
   color: #FF0000;
 }
@@ -323,6 +350,7 @@ body {
   text-align: center;
   color: #fff;
   letter-spacing: 3px;
+  margin-top: 10px;
 }
 
 /* Responsive Design */

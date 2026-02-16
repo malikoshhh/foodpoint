@@ -7,6 +7,9 @@ import logoIndexWinter from '../pints/Logo/logoindexWinter.jpg';
 import capitanAmericaImg from '../pints/Shawerma/capitanAmerica.jpg';
 import cheeseMountainsImg from '../pints/Shawerma/CHEESE MOUNTAINS.jpg';
 import donarMalsiImg from '../pints/Shawerma/DONARMALSI.jpg';
+import originalImg from '../pints/Shawerma/ORIGINAL.jpg';
+import donarBeefImg from '../pints/Shawerma/DONARBEEF.jpg';
+import gyroInLavashImg from '../pints/Shawerma/GYROINLAVASH.jpg';
 import amadeyImg from '../pints/Burgers/AMADEY.jpg';
 import topImg from '../pints/Burgers/TOP.jpg';
 import soulfulImg from '../pints/Burgers/SOULFUL.jpg';
@@ -14,6 +17,9 @@ import patricianImg from '../pints/Burgers/PATRICIAN.jpg';
 import signatureBurgerImg from '../pints/Burgers/SIGNATUREBURGER.jpg';
 import bigAlladinImg from '../pints/Burgers/BIGALLADIN.jpg';
 import signatureShawermaImg from '../pints/Shawerma/SIGNATURESHAWERMA.jpg';
+import trioImg from '../pints/Combo/TRIO.jpg';
+import eliteImg from '../pints/Combo/ELITE.jpg';
+import threeDonarImg from '../pints/Combo/THREEDONAR.png';
 
 // Переводы
 const translations = {
@@ -133,11 +139,15 @@ const menuData = {
       name: 'ОРИГИНАЛЬНАЯ',
       price: 350,
       description: 'Лаваш, белый соус, курица, айзберг, помидор, огурец, лук'
+      ,
+      image: originalImg
     },
     {
       name: 'ГИРО В ЛАВАШЕ',
       price: 399,
       description: 'Лаваш, курица, помидор, огурец, лук, белый соус, картошка фри'
+      ,
+      image: gyroInLavashImg
     },
     {
       name: 'СЫРНЫЕ ГОРЫ',
@@ -161,6 +171,8 @@ const menuData = {
       name: 'ДОНАР ГОВЯДИНА',
       price: 399,
       description: 'Лаваш круглый, говядина барбекю, фирменный соус, белый соус, овощи'
+      ,
+      image: donarBeefImg
     }
   ],
   wraps: [
@@ -205,11 +217,15 @@ const menuData = {
       name: 'ТРИО',
       price: 1450,
       description: 'Три любые шаурмы, 3 фри'
+      ,
+      image: threeDonarImg
     },
     {
       name: 'ЭЛИТА',
       price: 1500,
       description: 'Патрицианские бургеры, 2 фри, сырные палочки'
+      ,
+      image: eliteImg
     },
     {
       name: 'ТРИ ТАШЕ',

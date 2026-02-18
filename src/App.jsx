@@ -375,7 +375,7 @@ function App() {
         
         <div className="top-bar">
           <div className="center-info">
-            <div className="center-phone">8(903)-443-13-52</div>
+            <div className="center-phone">8(923)-006-66-66</div>
             <div className="center-address">{language === 'ru' ? 'УЛ.ХУБИЕВА 1Д' : 'KHUBIEVA ST. 1D'}</div>
             <div className="center-hours">11:00 - 22:00</div>
           </div>
